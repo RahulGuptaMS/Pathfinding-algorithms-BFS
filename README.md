@@ -34,6 +34,7 @@ Before running the project, make sure you have the following installed:
 
    ```bash
   [ git clone https://github.com/your-username/Pathfinding-BFS-Visualizer.git](https://github.com/RahulGuptaMS/Pathfinding-algorithms-BFS.git)
+  
 Open the project in your Java IDE (e.g., IntelliJ IDEA, Eclipse).
 
 Run the PathfindingBFS_GUI.java file to start the visualizer.
@@ -58,14 +59,16 @@ Grid Size: You can change the grid size by modifying the ROWS and COLS constants
 Animation Speed: Adjust the speed of the BFS traversal by modifying the Thread.sleep() duration inside the bfs() and drawPath() methods.
 
 Challenges & Solutions
-Real-Time Visualization: Ensured smooth visualization of the algorithm using Thread.sleep() to delay each step and avoid UI lag.
 
-Handling User Inputs: Implemented mouse listeners to allow users to select start and end points interactively.
+1.Real-Time Visualization: Ensured smooth visualization of the algorithm using Thread.sleep() to delay each step and avoid UI lag.
+
+2.Handling User Inputs: Implemented mouse listeners to allow users to select start and end points interactively.
 
 Future Improvements
-Adding Obstacles: Users can place obstacles on the grid to simulate more complex scenarios.
 
-Other Algorithms: Implement Dijkstra's Algorithm and A* to allow users to compare different pathfinding techniques.
+1.Adding Obstacles: Users can place obstacles on the grid to simulate more complex scenarios.
+
+2.Other Algorithms: Implement Dijkstra's Algorithm and A* to allow users to compare different pathfinding techniques.
 
 Custom Grid Sizes: Allow users to dynamically change the grid size during runtime.
 
