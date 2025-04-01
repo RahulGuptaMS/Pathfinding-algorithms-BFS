@@ -33,23 +33,24 @@ Before running the project, make sure you have the following installed:
 1. **Clone the repository** to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/Pathfinding-BFS-Visualizer.git
+  [ git clone https://github.com/your-username/Pathfinding-BFS-Visualizer.git](https://github.com/RahulGuptaMS/Pathfinding-algorithms-BFS.git)
 Open the project in your Java IDE (e.g., IntelliJ IDEA, Eclipse).
 
 Run the PathfindingBFS_GUI.java file to start the visualizer.
 
 How to Use
-Click on a cell in the grid to set the start point (this will be highlighted in green).
 
-Click on another cell to set the end point (this will be highlighted in red).
+1.Click on a cell in the grid to set the start point (this will be highlighted in green).
 
-Press the "Run BFS" button to start the pathfinding process.
+2.Click on another cell to set the end point (this will be highlighted in red).
 
-Watch the BFS algorithm in action:
+3.Press the "Run BFS" button to start the pathfinding process.
 
-The blue cells represent the explored nodes.
+4.Watch the BFS algorithm in action:
 
-The yellow cells represent the shortest path found by BFS.
+5.The blue cells represent the explored nodes.
+
+6.The yellow cells represent the shortest path found by BFS.
 
 Customization
 Grid Size: You can change the grid size by modifying the ROWS and COLS constants in the PathfindingBFS_GUI.java file.
